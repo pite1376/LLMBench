@@ -590,7 +590,7 @@ export const PROVIDERS: Record<AIProvider, { id: AIProvider; name: string; apiUr
     id: 'volcengine',
     name: '火山引擎',
     apiUrl: 'https://ark.cn-beijing.volces.com/api/v3',
-    icon: 'model-logo/bigmodel.png',
+    icon: '🌋',
     color: '#1890FF',
     logo: 'model-logo/bigmodel.png', // 使用现有的bigmodel.png作为临时替代
     supportStream: true,
