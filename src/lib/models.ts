@@ -574,7 +574,7 @@ export const PROVIDERS: Record<AIProvider, { id: AIProvider; name: string; apiUr
     apiUrl: 'https://api.deepseek.com',
     icon: '🐟',
     color: '#1E40AF',
-    logo: 'model-logo/claude-logo.png', // 使用现有的claude-logo.png作为临时替代
+    logo: 'https://i.postimg.cc/X7pxk6gK/deepseek-logo.png', // 使用现有的claude-logo.png作为临时替代
     supportStream: true,  
   },
   aliyun: {
@@ -583,7 +583,7 @@ export const PROVIDERS: Record<AIProvider, { id: AIProvider; name: string; apiUr
     apiUrl: 'https://dashscope.aliyuncs.com/api/v1',
     icon: '☁️',
     color: '#FF6600',
-    logo: 'model-logo/gpt-logo.png', // 使用现有的gpt-logo.png作为临时替代
+    logo: 'https://i.postimg.cc/JhcQzr18/qwen-logo.png', // 使用现有的gpt-logo.png作为临时替代
     supportStream: true,
   },
   volcengine: {
@@ -592,7 +592,7 @@ export const PROVIDERS: Record<AIProvider, { id: AIProvider; name: string; apiUr
     apiUrl: 'https://ark.cn-beijing.volces.com/api/v3',
     icon: '🌋',
     color: '#1890FF',
-    logo: 'model-logo/bigmodel.png', // 使用现有的bigmodel.png作为临时替代
+    logo: 'https://i.postimg.cc/CLX7vrv3/doubao-logo.png', // 使用现有的bigmodel.png作为临时替代
     supportStream: true,
   },
   kimi: {
@@ -601,7 +601,7 @@ export const PROVIDERS: Record<AIProvider, { id: AIProvider; name: string; apiUr
     apiUrl: 'https://api.moonshot.cn',
     icon: '🌙',
     color: '#6366F1',
-    logo: 'model-logo/kimi-logo.png',
+    logo: 'https://i.postimg.cc/Sx9rHL3J/kimi-logo.png',
     supportStream: true,
   },
   claude: {
@@ -610,7 +610,7 @@ export const PROVIDERS: Record<AIProvider, { id: AIProvider; name: string; apiUr
     apiUrl: 'https://api.302ai.cn/v1',
     icon: '✨',
     color: '#6A0DAD',
-    logo: 'model-logo/claude-logo.png',
+    logo: 'https://i.postimg.cc/sfnwWg5D/claude-logo.png',
     supportStream: true,
   },
   bigmodel: {
@@ -619,7 +619,7 @@ export const PROVIDERS: Record<AIProvider, { id: AIProvider; name: string; apiUr
     apiUrl: 'https://open.bigmodel.cn/api/paas/v4',
     icon: '🧠',
     color: '#1E88E5',
-    logo: 'model-logo/bigmodel.png',
+    logo: 'https://i.postimg.cc/Wz48yBcv/bigmodel.png',
     supportStream: true,
   },
 };
