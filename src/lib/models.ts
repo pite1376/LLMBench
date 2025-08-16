@@ -427,7 +427,7 @@ export const AVAILABLE_MODELS: ModelConfig[] = [
   },
   {
     id: 'gpt-5-nano',
-    name: 'GPT-5',
+    name: 'GPT-5-nano',
     provider: 'claude',
     modelId: 'gpt-5-nano',
     maxTokens: 128000,
