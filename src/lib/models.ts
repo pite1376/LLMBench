@@ -5,26 +5,26 @@ export const AVAILABLE_MODELS: ModelConfig[] = [
   // DeepSeek 模型
   {
     id: 'deepseek-chat',
-    name: 'DeepSeek V3 0324',
+    name: 'DeepSeek-V3.1',
     provider: 'deepseek',
     modelId: 'deepseek-chat',
-    maxTokens: 64000,
+    maxTokens: 8000,
     temperature: 0.7,
     supportVision: false,
-    costPerToken: 0.0000014, // 1.4美元/1M tokens
-    description: 'DeepSeek V3-250325 是通用型 MoE 模型的标杆，通过后训练优化实现多领域能力跃升，尤其适合开发者与普通用户的高效需求。追求广度与效率平衡，适合日常高并发场景。发布日期：2025 年 3 月 24 日。API 提供 64K 上下文',
+    costPerToken: 000012, // 12元/1M tokens
+    description: 'DeepSeek-V3.1 是一个支持思考模式和非思考模式的混合模型，更智能的工具调用、更高思考效率',
   },
   {
     id: 'deepseek-reasoner',
-    name: 'DeepSeek R1 0528',
+    name: 'DeepSeek-V3.1（思考模式）',
     provider: 'deepseek',
     modelId: 'deepseek-reasoner',
-    maxTokens: 32000,
+    maxTokens: 64000,
     temperature: 0.7,
     supportVision: false,
-    costPerToken: 0.000055, // 55美元/1M tokens
+    costPerToken: 000012, // 12元/1M tokens
     isReasoner: true,
-    description: 'DeepSeek R1-250528 代表推理专用模型的演进，依托强化学习突破复杂任务瓶颈，为科研、金融等专业领域提供核心支持。R1 专注深度与精确性，为专业分析场景而生。发布日期：2025 年 5 月 28 日。max_tokens用于限制模型单次输出的总长度（包括思考过程），默认为 32K，最大为 64K',
+    description: 'DeepSeek-V3.1 是一个支持思考模式和非思考模式的混合模型，更智能的工具调用、更高思考效率',
   },
 
   // 阿里云通义千问模型
