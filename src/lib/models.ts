@@ -11,7 +11,7 @@ export const AVAILABLE_MODELS: ModelConfig[] = [
     maxTokens: 8000,
     temperature: 0.7,
     supportVision: false,
-    costPerToken: 000012, // 12元/1M tokens
+    costPerToken: 0.000012, // 12元/1M tokens
     description: 'DeepSeek-V3.1 是一个支持思考模式和非思考模式的混合模型，更智能的工具调用、更高思考效率',
   },
   {
@@ -22,7 +22,7 @@ export const AVAILABLE_MODELS: ModelConfig[] = [
     maxTokens: 64000,
     temperature: 0.7,
     supportVision: false,
-    costPerToken: 000012, // 12元/1M tokens
+    costPerToken: 0.000012, // 12元/1M tokens
     isReasoner: true,
     description: 'DeepSeek-V3.1 是一个支持思考模式和非思考模式的混合模型，更智能的工具调用、更高思考效率',
   },
